@@ -3,7 +3,7 @@ package hexlet.code;
 import java.util.Scanner;
 
 public class Engine {
-    final  static int quantityAttempts = 3;
+    static  final int QUANTITY_ATTEMPTS = 3;
 
     public static String userName;
 
@@ -18,7 +18,7 @@ public class Engine {
 
     public static void resultGame(String[][] dataGame) {
         int count = 0;
-        for (var i = 0; i < quantityAttempts; i++) {
+        for (var i = 0; i < QUANTITY_ATTEMPTS; i++) {
             System.out.println(dataGame[i][0]);
             System.out.print("Your answer: ");
             Scanner choiceEven = new Scanner(System.in);

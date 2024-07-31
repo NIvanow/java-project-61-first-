@@ -1,6 +1,5 @@
 package hexlet.code.game;
 
-import hexlet.code.App;
 import hexlet.code.Engine;
 
 public class Greet {

@@ -1,22 +1,20 @@
 package hexlet.code.game;
 
-import java.util.Scanner;
-import hexlet.code.App;
 import hexlet.code.Engine;
 
 public class Calc {
-    final static String rulesGame = "What is the result of the expression?";
-    final  static int quantityAttempts = 3;
-    final static char[] operations = {'+', '*', '-'};
+    static final String RULES_GAME = "What is the result of the expression?";
+    static final int QUANTITY_ATTEMPTS = 3;
+    static final char[] OPERATIONS = {'+', '*', '-'};
     static String[][] data = new String[3][2];
 
     public static void game() {
-        Engine.start(rulesGame);
-        for (int i = 0; i < quantityAttempts; i++) {
+        Engine.start(RULES_GAME);
+        for (int i = 0; i < QUANTITY_ATTEMPTS; i++) {
             int randomNum1 = (int) (Math.random() * 20);
             int randomNum2 = (int) (Math.random() * 20);
             int randomOperation = (int) (Math.random() * 3);
-            char operation = operations[randomOperation];
+            char operation = OPERATIONS[randomOperation];
 
             data[i][0] = question(randomNum1, randomNum2, operation);
             data[i][1] = calculate(randomNum1, randomNum2, operation);

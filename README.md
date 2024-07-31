@@ -14,6 +14,10 @@ Demonstration GCD game
 
 [![asciicast](https://asciinema.org/a/H2h70Go8JDknd51zKZEvxJLb3.svg)](https://asciinema.org/a/H2h70Go8JDknd51zKZEvxJLb3)
 
-Demonstation Progression game
+Demonstration Progression game
 
 [![asciicast](https://asciinema.org/a/uO6jWkwcl2qb4psNid65SMeZq.svg)](https://asciinema.org/a/uO6jWkwcl2qb4psNid65SMeZq)
+
+Demonstration Prime game
+
+[![asciicast](https://asciinema.org/a/a2G09cTZL62c9bQmxX0wvfJAv.svg)](https://asciinema.org/a/a2G09cTZL62c9bQmxX0wvfJAv)

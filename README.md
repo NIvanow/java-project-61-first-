@@ -13,3 +13,7 @@ Demonstration Calc game
 Demonstration GCD game
 
 [![asciicast](https://asciinema.org/a/H2h70Go8JDknd51zKZEvxJLb3.svg)](https://asciinema.org/a/H2h70Go8JDknd51zKZEvxJLb3)
+
+Demonstation Progression game
+
+[![asciicast](https://asciinema.org/a/uO6jWkwcl2qb4psNid65SMeZq.svg)](https://asciinema.org/a/uO6jWkwcl2qb4psNid65SMeZq)

@@ -8,9 +8,6 @@ public class Calc {
     final static String rulesGame = "What is the result of the expression?";
     final  static int quantityAttempts = 3;
     final static char[] operations = {'+', '*', '-'};
-
-    private static int randomNum1, randomNum2;
-    private static char randomOperation;
     static String[][] data = new String[3][2];
 
     public static void game() {

@@ -1,9 +1,7 @@
 package hexlet.code;
 
 
-import hexlet.code.game.Calc;
-import hexlet.code.game.Even;
-import hexlet.code.game.Greet;
+import hexlet.code.game.*;
 
 import java.util.Scanner;
 
@@ -27,6 +25,12 @@ public class App {
                     break;
                 case 3:
                     Calc.game();
+                    break;
+                case 4:
+                    GCD.game();
+                    break;
+                case 5:
+                    Progression.game();
                     break;
                 default:
                     System.out.println("You entered an incorrect number");

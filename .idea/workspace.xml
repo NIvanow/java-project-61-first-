@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e2726b-be52-4d21-ab2b-4205b2a8c973" name="Changes" comment="Added plugin for Gradle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Calc.java" afterDir="false" />
+      <changelist_data name="Nikita Ivanov" email="ivanow.1994@gmail.com" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Progression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Cli.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/Cli.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Even.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Greet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/game/Even.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.app [installDist]">
+  <component name="RunManager" selected="Gradle.app [run]">
     <configuration name="app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -259,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.app [run]" />
         <item itemvalue="Gradle.app [installDist]" />
         <item itemvalue="Gradle.app [clean]" />
-        <item itemvalue="Gradle.app [run]" />
-        <item itemvalue="Gradle.app [checkstyleMain]" />
-        <item itemvalue="Gradle.app [build]" />
+        <item itemvalue="Gradle.app [installDist]" />
+        <item itemvalue="Gradle.app [clean]" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722027018260</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added plugin for Gradle">
+      <option name="closed" value="true" />
+      <created>1722356121986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722356121986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,6 +337,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added file App.java" />
+    <MESSAGE value="Added Calc game" />
     <MESSAGE value="Added plugin for Gradle" />
     <option name="LAST_COMMIT_MESSAGE" value="Added plugin for Gradle" />
   </component>

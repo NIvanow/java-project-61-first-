@@ -20,6 +20,7 @@ public class Engine {
         int count = 0;
         for (var i = 0; i < quantityAttempts; i++) {
             System.out.println(dataGame[i][0]);
+            System.out.print("Your answer: ");
             Scanner choiceEven = new Scanner(System.in);
             String choiceEvenStr = choiceEven.next();
             if (dataGame[i][1].equals(choiceEvenStr)) {
